@@ -14,16 +14,14 @@ Item.delete_all
 Pack.delete_all
 
 puts "Creating users..."
-raiders = Movie.create(name: "Raiders of the Lost Ark", summary: "Snakes. I hate snakes.", year_released: "1981")
-star_wars = Movie.create(name: "Star Wars", summary: "Use the force.", year_released: "1977")
-apollo_13 = Movie.create(name: "Apollo 13", summary: "Spoiler alert, we land on the moon.", year_released: "1995")
-cast_away = Movie.create(name: "Cast Away", summary: "A man and an island.", year_released: "2000")
+khorshid = User.create(name: "Khorshid", email: "krahmaninejad2015@kellogg.northwestern.edu", password: "codered")
+kevin = User.create(name: "Kevin", email: "kchao2015@kellogg.northwestern.edu", password: "codeblue")
+lucy = User.create(name: "Lucy", email: "lcheng2015@kellogg.northwestern.edu", password: "codeorange")
 
 puts "Creating trips..."
-ford = Actor.create(name: "Harrison Ford")
-fisher = Actor.create(name: "Carrie Fisher")
-hanks = Actor.create(name: "Tom Hanks")
-hunt = Actor.create(name: "Helen Hunt")
+greece = Trip.create(name: "Greece 2015")
+argentina = Trip.create(name: "Argentina Spring Break")
+thailand = Trip.create(name: "Thailand 2015")
 
 puts "Creating cities..."
 
